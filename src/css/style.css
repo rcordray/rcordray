@@ -1,0 +1,102 @@
+body {
+  color: #fff; }
+
+a {
+  color: white; }
+
+img {
+  opacity: 1.0; }
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  opacity: 0.6; }
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 3px;
+  font-size: 25px;
+  letter-spacing: 8px;
+  opacity: 0.6; }
+
+.navbar {
+  border-bottom: #fff 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/nathan-anderson-350605.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+
+h1 {
+  text-align: center; }
+
+.card {
+  color: #fff;
+  background: grey;
+  opacity: 0.6; }
+
+#project-section {
+  background: url("../img/andreas-p-30199.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center; }
+  #project-section .home-inner {
+    padding-top: 75px; }
+  #project-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #project-section .lead {
+    color: #c8c8c8; }
+
+#qualifications-section {
+  background: url("../img/andreas-ronningen-31469.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center; }
+  #qualifications-section .home-inner {
+    padding-top: 125px; }
+  #qualifications-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+
+#about-section {
+  background: url("../img/linnea-sandbakk-91478.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-position: right; }
+  #about-section .home-inner {
+    padding-top: 150px; }
+  #about-section img {
+    border: solid grey 10px;
+    border-radius: 5px;
+    opacity: 1; }
+  #about-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }

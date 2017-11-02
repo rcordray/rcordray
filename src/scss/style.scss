@@ -1,0 +1,128 @@
+$bg-color: grey;
+$font-color: #fff;
+$primary-color: #fff;
+$dark-overlay: rgba(0, 0, 0, 0.6);
+body {
+    color: $font-color;
+}
+
+a {
+    color: white;
+}
+
+img {
+    opacity: 1.0;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    opacity: 0.6;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 3px;
+    font-size: 25px;
+    letter-spacing: 8px;
+    opacity: 0.6;
+}
+
+.navbar {
+    border-bottom: $font-color 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url('../img/nathan-anderson-350605.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    .home-inner {
+        padding-top: 150px
+    }
+    .dark-overlay {
+        background-color: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    color: $font-color;
+    background: $bg-color;
+    opacity: 0.6;
+}
+
+#project-section {
+    background: url('../img/andreas-p-30199.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    .home-inner {
+        padding-top: 75px
+    }
+    .dark-overlay {
+        background-color: $dark-overlay;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+    .lead {
+        color: rgb(200, 200, 200);
+    }
+}
+
+#qualifications-section {
+    background: url('../img/andreas-ronningen-31469.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    .home-inner {
+        padding-top: 125px
+    }
+    .dark-overlay {
+        background-color: $dark-overlay;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+}
+
+#about-section {
+    background: url('../img/linnea-sandbakk-91478.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-position: right;
+    .home-inner {
+        padding-top: 150px
+    }
+    img {
+        border: solid grey 10px;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    .dark-overlay {
+        background-color: $dark-overlay;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+}

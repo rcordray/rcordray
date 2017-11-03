@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "1.0.0",
     "description": "Robert Cordray Portfolio",
-    "main": "public/index.html",
+    "main": "public",
     "scripts": {
         "start": "gulp"
     },

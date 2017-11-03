@@ -2,13 +2,14 @@
     "name": "portfolio",
     "version": "1.0.0",
     "description": "Robert Cordray Portfolio",
-    "main": "index.html",
+    "main": "public/index.html",
     "scripts": {
         "start": "gulp"
     },
     "author": "Robert Cordray",
     "license": "",
     "dependencies": {
+        "animate.css": "^3.5.2",
         "bootstrap": "4.0.0-beta",
         "font-awesome": "^4.7.0",
         "fullpage.js": "^2.9.5",
